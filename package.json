@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-controls-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "@component-controls/nextjs-plugin": "^1.11.1",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "next": "^9.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "next build && next export",
+    "start": "next",
+    "start-server": "next build && next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atanasster/nextjs-controls-starter.git"
+  }
+}
