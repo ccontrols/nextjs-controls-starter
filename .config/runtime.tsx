@@ -1,7 +1,7 @@
 import React from 'react';
 import { RunOnlyConfiguration, defaultRunConfig } from "@component-controls/core";
-import { AllyPage } from "@component-controls/axe-plugin";
-import { ViewportPage } from "@component-controls/viewport-plugin";
+import { TestingPage } from "./TestingPage";
+
 
 const config: RunOnlyConfiguration = {
   siteTitle: `awLib`,
@@ -12,8 +12,7 @@ const config: RunOnlyConfiguration = {
     story: {
       tabs: [
         ...defaultRunConfig.pages.story.tabs,
-        { title: 'Testing', render: () => <AllyPage /> },
-        { title: 'Viewport', render: () => <ViewportPage /> },
+        { title: 'Testing', render: () => <TestingPage /> },
       ],
     },
   }  

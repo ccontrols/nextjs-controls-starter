@@ -4,7 +4,7 @@ module.exports = {
   ],
   pages: {
     story: {
-      tabs: [{ route: 'page' }, { route: 'test' }, { route: 'viewport' }],
+      tabs: [{ route: 'page' }, { route: 'test' }],
     },
   }
 };
