@@ -7,7 +7,7 @@
   "dependencies": {
     "@component-controls/axe-plugin": "^1.36.7",
     "@component-controls/blocks": "^1.36.7",
-    "@component-controls/core": "^1.36.7",
+    "@component-controls/core": "^1.36.6",
     "@component-controls/jest-snapshots": "^1.36.7",
     "@component-controls/nextjs-plugin": "^1.36.7",
     "@component-controls/viewport-plugin": "^1.36.7",
