@@ -4,9 +4,9 @@ import { TestingPage } from "./TestingPage";
 
 
 const config: RunOnlyConfiguration = {
-  siteTitle: `awLib`,
+  title: `awLib`,
   siteUrl: `https://nextjs-controls-starter.netlify.app`,
-  siteDescription: `Some description meta.`,
+  description: `Some description meta.`,
   author: 'my name',
   pages: {
     story: {
