@@ -1,9 +1,9 @@
 import React from 'react';
-import { RunOnlyConfiguration, defaultRunConfig } from "@component-controls/core";
+import { RunConfiguration, defaultRunConfig } from "@component-controls/core";
 import { TestingPage } from "./TestingPage";
 
 
-const config: RunOnlyConfiguration = {
+const config: RunConfiguration = {
   title: `awLib`,
   siteUrl: `https://nextjs-controls-starter.netlify.app`,
   description: `Some description meta.`,
