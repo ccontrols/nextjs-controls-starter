@@ -4,14 +4,10 @@ module.exports = {
   stories: ["../src/docs/*.@(mdx|tsx)"],
   pages: {
     story: {
-      tabs: [
+      tabs: {
         ...defaultBuildConfig.pages.story.tabs,
-        {
-          route: "test",
-          title: "Testing",
-          template: "@component-controls/pages/TestingPage",
-        },
-      ],
+        test: "@component-controls/pages/TestingPage",
+      },
     },
   },
   siteUrl: `https://nextjs-controls-starter.netlify.app`,
