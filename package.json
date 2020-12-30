@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": "true",
   "dependencies": {
-    "@component-controls/jest-snapshots": "^2.5.1",
-    "@component-controls/nextjs-plugin": "^2.5.1",
+    "@component-controls/jest-snapshots": "^2.5.3",
+    "@component-controls/nextjs-plugin": "^2.5.3",
     "next": "^10.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
