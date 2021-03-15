@@ -1471,10 +1471,8 @@
   dependencies:
     chalk "^4.0.0"
 
-"@component-controls/nextjs-plugin@^3.4.4":
+"@component-controls/nextjs-plugin@file:../component-controls/integrations/nextjs-plugin":
   version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@component-controls/nextjs-plugin/-/nextjs-plugin-3.4.4.tgz#716527bb3e6aa59746404660d913c8f6e12bbc93"
-  integrity sha512-Dz3mMmVPmZl03YbkVDEQ+IGCnzuOnkw4ajUCPxmF11ZMOJo94/kOEZklIehS9p177EqjJRmjraj+eQkebIYxOw==
   dependencies:
     "@component-controls/base-integration" "^3.4.4"
     "@component-controls/pages" "^3.4.4"
