@@ -5,25 +5,42 @@
   "license": "MIT",
   "private": "true",
   "dependencies": {
-    "@component-controls/jest-snapshots": "^3.4.5",
-    "@component-controls/nextjs-plugin": "^3.4.5",
+    "@component-controls/cc-cli": "^3.5.2",
+    "@component-controls/nextjs-plugin": "^3.5.2",
     "next": "^10.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@types/react": "^17.0.2",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/testing-library__jest-dom": "^5.9.5",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "jest-matchmedia-mock": "^1.1.0",
+    "rc-util": "^5.9.8",
+    "ts-jest": "^26.5.4",
     "typescript": "^4.2.3"
   },
   "scripts": {
     "build": "next build && next export",
     "start": "next",
     "start-server": "next build && next start",
-    "test": "cc-jest"
+    "test:create": "cc-cli -g story -f ts -w",
+    "test": "yarn jest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ccontrols/nextjs-controls-starter.git"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "transform": {
+      "^.+\\.(ts|tsx)?$": "ts-jest",
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
   }
 }
