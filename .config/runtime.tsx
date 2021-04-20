@@ -1,10 +1,7 @@
-import React from 'react';
-import { RunConfiguration, defaultRunConfig } from "@component-controls/core";
+import { RuntimeConfiguration } from "@component-controls/core";
 
-
-const config: RunConfiguration = {
+const config: RuntimeConfiguration = {
   title: `awLib`,
-  siteUrl: `https://nextjs-controls-starter.netlify.app`,
   description: `Some description meta.`,
   author: 'my name',
 };
