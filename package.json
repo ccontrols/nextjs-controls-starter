@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": "true",
   "dependencies": {
-    "@component-controls/cc-cli": "^3.7.0",
-    "@component-controls/nextjs-plugin": "^3.7.0",
+    "@component-controls/cc-cli": "^3.8.0",
+    "@component-controls/nextjs-plugin": "^3.8.0",
     "next": "^10.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
