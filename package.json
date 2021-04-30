@@ -29,7 +29,7 @@
     "build": "next build && next export",
     "start": "next",
     "start-server": "next build && next start",
-    "test:create": "cc-cli -g story -f ts -w",
+    "test:create": "cc-cli -g doc -f ts -w",
     "test": "yarn jest"
   },
   "repository": {
