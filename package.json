@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": "true",
   "dependencies": {
-    "@component-controls/cc-cli": "^3.10.1",
-    "@component-controls/nextjs-plugin": "^3.10.1",
+    "@component-controls/cc-cli": "^3.10.2",
+    "@component-controls/nextjs-plugin": "^3.10.2",
     "next": "^10.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -37,6 +37,7 @@
     "preset": "ts-jest",
     "globals": {
       "ts-jest": {
+        "tsconfig": "tsconfig.jest.json",
         "isolatedModules": true
       }
     }
