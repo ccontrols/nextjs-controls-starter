@@ -1,24 +1,24 @@
 export default {
   overview: {
     "0": {
-      text: "Penelope O'Reilly",
-      icon: "Boyd Strosin"
+      text: "Rylee Miller",
+      icon: "Ariane Conroy"
     },
     "1": {
-      text: "Miss Bettye Gerhold",
-      icon: "Lyric Leannon"
+      text: "Immanuel Schowalter",
+      icon: "Maida Wilderman"
     },
     "2": {
-      text: "Hilma Rohan",
-      icon: "Cathy Price"
+      text: "Donna Watsica",
+      icon: "Ms. Watson Marvin"
     },
     "3": {
-      text: "Marty Mann",
-      icon: "Harold Davis"
+      text: "Damien Murphy",
+      icon: "Tiara Klocko"
     },
     "4": {
-      text: "Priscilla Jones",
-      icon: "Shannon Jones"
+      text: "Mrs. Keshaun Maggio",
+      icon: "Trever Bogan"
     }
   }
 };
