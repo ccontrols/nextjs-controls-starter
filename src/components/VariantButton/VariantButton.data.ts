@@ -1,24 +1,29 @@
 export default {
   overview: {
-    "0": {
-      text: "Rylee Miller",
-      icon: "Ariane Conroy"
-    },
     "1": {
-      text: "Immanuel Schowalter",
-      icon: "Maida Wilderman"
+      text: "Cecelia Langosh",
+      variant: "success",
+      icon: "search"
     },
     "2": {
-      text: "Donna Watsica",
-      icon: "Ms. Watson Marvin"
+      text: "Jolie Beahan Sr.",
+      variant: "disabled",
+      icon: "down-arrow"
     },
     "3": {
-      text: "Damien Murphy",
-      icon: "Tiara Klocko"
+      text: "Kane Ortiz",
+      variant: "warning",
+      icon: "none"
     },
     "4": {
-      text: "Mrs. Keshaun Maggio",
-      icon: "Trever Bogan"
+      text: "Ronny Spinka",
+      variant: "success",
+      icon: "right-arrow"
+    },
+    "5": {
+      text: "Jayce Schaden",
+      variant: "primary",
+      icon: "up-arrow"
     }
   }
 };
